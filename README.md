@@ -71,3 +71,11 @@ This project aims to improve runoff simulation in ungauged or data-scarce waters
     Rainfall Accumulation	Previous 24-hour rainfall
     Basin Area	            Watershed area
 
+<_Watershed Attributes_>
+
+    Static watershed descriptors are used as additional predictors:
+
+    Attribute	            Purpose
+    Area	                Basin scale
+    Elevation Difference	Topographic variability
+    Curve Number (CN)	    Runoff generation potential
