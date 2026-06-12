@@ -95,14 +95,44 @@ This project aims to improve runoff simulation in ungauged or data-scarce waters
 
     Asymmetric Laplace Distribution (ALD)
 
+<_Training_>
 
+    python main.py
 
+    Training settings:
 
+    seq_len = 168
+    hidden_size = 64
+    num_layers = 4
+    batch_size = 1024
+    learning_rate = 0.0001
+    epochs = 1500
 
+<_Applications_>
+    - Runoff prediction in ungauged basins
+    - Regional hydrologic modeling
+    - Watershed similarity analysis
+    - Data-scarce hydrologic forecasting
+    - Deep learning hydrology research
 
+<_Future Work_>
+    
+    - Application in Additional watersheds
+    - Transformer-based hydrologic modeling
+    - Multi-basin regional training
+    - Continental-scale runoff prediction
+    - Physics-informed deep learning
 
+<_Author_>
 
+    Kwihoon Kim, 
+    
+    Ph.D. in Agricultural Engineering
 
+    Republic of Korea
 
+<_Citation_>
+
+    If you use this repository in your research, please cite the associated publication.
 
 
