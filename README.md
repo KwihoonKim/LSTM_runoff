@@ -35,8 +35,29 @@ This project aims to improve runoff simulation in ungauged or data-scarce waters
             └─ NRCS-CN effective rainfall
             ↓
     Basin Characteristics
-    (Area, Density, Elevation, CN)
+    (Area, Elevation, CN)
             ↓
     LSTM Network
             ↓
     Hourly Runoff Prediction
+
+<_Features_>
+
+    Hydrologic Preprocessing
+    - NRCS Curve Number (CN) runoff generation
+    - Event-based cumulative rainfall calculation
+    - Effective rainfall estimation
+    - Antecedent rainfall accumulation
+    - Temperature averaging
+
+    Deep Learning
+    - Multi-layer LSTM
+    - PyTorch implementation
+    - GPU acceleration (Not applied in LSTM)
+    - Asymmetric Laplace Distribution (ALD) loss
+    - Quantile-based prediction framework
+    
+    Evaluation
+    - Nash-Sutcliffe Efficiency (NSE)
+    - Training and validation monitoring
+    - Multi-basin performance assessment
