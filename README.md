@@ -61,3 +61,16 @@ This project aims to improve runoff simulation in ungauged or data-scarce waters
     - Nash-Sutcliffe Efficiency (NSE)
     - Training and validation monitoring
     - Multi-basin performance assessment
+
+<_Input Variables_>
+
+    Variable/	Description
+
+Precipitation	Hourly rainfall
+Temperature	Hourly air temperature
+Effective Rainfall	NRCS-CN derived runoff-producing rainfall
+Rainfall Accumulation	Previous 24-hour rainfall
+Basin Area	Watershed area
+Population Density	Population density
+Elevation Difference	Basin relief
+
