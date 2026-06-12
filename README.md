@@ -79,3 +79,30 @@ This project aims to improve runoff simulation in ungauged or data-scarce waters
     Area	                Basin scale
     Elevation Difference	Topographic variability
     Curve Number (CN)	    Runoff generation potential
+
+<_Model Architecture_>
+
+    Input Sequence (168 hr)
+            ↓
+    LSTM Layer (4 layers)
+            ↓
+    Fully Connected Layer
+            │
+            ├── μ (runoff estimate)
+            └── b (uncertainty scale)
+
+    Loss Function:
+
+    Asymmetric Laplace Distribution (ALD)
+
+
+
+
+
+
+
+
+
+
+
+
