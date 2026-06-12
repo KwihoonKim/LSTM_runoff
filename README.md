@@ -21,3 +21,22 @@ This project aims to improve runoff simulation in ungauged or data-scarce waters
     - Curve Number (CN)
 
     with a Long Short-Term Memory (LSTM) network to simulate hourly runoff.
+
+
+<_Model Workflow_>
+
+    Meteorological Data
+    (Precipitation, Temperature)
+            ↓
+    Hydrologic Feature Extraction
+            │
+            ├─ 24-hour rainfall accumulation
+            ├─ 168-hour temperature average
+            └─ NRCS-CN effective rainfall
+            ↓
+    Basin Characteristics
+    (Area, Density, Elevation, CN)
+            ↓
+    LSTM Network
+            ↓
+    Hourly Runoff Prediction
